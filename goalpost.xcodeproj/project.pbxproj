@@ -13,6 +13,7 @@
 		A16D98961F59CE86000AD896 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16D98951F59CE86000AD896 /* UIViewControllerExt.swift */; };
 		A16D98981F59D33B000AD896 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16D98971F59D33B000AD896 /* UIViewExt.swift */; };
 		A16D989A1F59D34B000AD896 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16D98991F59D34B000AD896 /* UIButtonExt.swift */; };
+		A16D989C1F5A15EC000AD896 /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16D989B1F5A15EC000AD896 /* FinishGoalVC.swift */; };
 		A1D901281F59A528000B9014 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D901271F59A528000B9014 /* AppDelegate.swift */; };
 		A1D9012A1F59A528000B9014 /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D901291F59A528000B9014 /* GoalsVC.swift */; };
 		A1D9012D1F59A528000B9014 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D9012B1F59A528000B9014 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 		A16D98951F59CE86000AD896 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		A16D98971F59D33B000AD896 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		A16D98991F59D34B000AD896 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		A16D989B1F5A15EC000AD896 /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
 		A1D901241F59A528000B9014 /* goalpost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goalpost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D901271F59A528000B9014 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1D901291F59A528000B9014 /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			children = (
 				A1D901291F59A528000B9014 /* GoalsVC.swift */,
 				A16D98931F59CC6A000AD896 /* CreateGoalVC.swift */,
+				A16D989B1F5A15EC000AD896 /* FinishGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				A1D9012A1F59A528000B9014 /* GoalsVC.swift in Sources */,
 				A16D98961F59CE86000AD896 /* UIViewControllerExt.swift in Sources */,
 				A16D989A1F59D34B000AD896 /* UIButtonExt.swift in Sources */,
+				A16D989C1F5A15EC000AD896 /* FinishGoalVC.swift in Sources */,
 				A1D901281F59A528000B9014 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
