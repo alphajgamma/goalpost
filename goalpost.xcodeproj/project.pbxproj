@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A16D98901F59B0A3000AD896 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16D988F1F59B0A3000AD896 /* GoalCell.swift */; };
 		A16D98921F59C7C5000AD896 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16D98911F59C7C5000AD896 /* GoalType.swift */; };
+		A16D98941F59CC6A000AD896 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16D98931F59CC6A000AD896 /* CreateGoalVC.swift */; };
 		A1D901281F59A528000B9014 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D901271F59A528000B9014 /* AppDelegate.swift */; };
 		A1D9012A1F59A528000B9014 /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D901291F59A528000B9014 /* GoalsVC.swift */; };
 		A1D9012D1F59A528000B9014 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D9012B1F59A528000B9014 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		A16D988F1F59B0A3000AD896 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 		A16D98911F59C7C5000AD896 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
+		A16D98931F59CC6A000AD896 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
 		A1D901241F59A528000B9014 /* goalpost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goalpost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D901271F59A528000B9014 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1D901291F59A528000B9014 /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				A1D901291F59A528000B9014 /* GoalsVC.swift */,
+				A16D98931F59CC6A000AD896 /* CreateGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A16D98901F59B0A3000AD896 /* GoalCell.swift in Sources */,
+				A16D98941F59CC6A000AD896 /* CreateGoalVC.swift in Sources */,
 				A16D98921F59C7C5000AD896 /* GoalType.swift in Sources */,
 				A1D901301F59A528000B9014 /* goalpost.xcdatamodeld in Sources */,
 				A1D9012A1F59A528000B9014 /* GoalsVC.swift in Sources */,
